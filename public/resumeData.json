@@ -65,31 +65,31 @@
         "title":"Portfolio",
         "category":"A portfolio I did from scratch to design to development",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://noora1125.github.io/Portflio/"
       },
       {
         "title":"Password Generator",
         "category":"Playing around with some Javascript. Weekly challenge",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://noora1125.github.io/password/"
       },
       {
-        "title":"Resume Website",
+        "title":"Weather App",
         "category":"A React based resume website template",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://noora1125.github.io/WeatherApp/"
       },
       {
-        "title":"Smirkspace",
+        "title":"Work Day Planner",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://noora1125.github.io/day-planer/"
       },
       {
-        "title":"Canadian Wanderlust",
+        "title":"Meals & Tails",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://mcolumbusua21.github.io/Project1/"
       },
       {
         "title":"Fury Fighting Gear",
