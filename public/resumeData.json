@@ -45,68 +45,31 @@
         "description":"U of A's 3 month intensive full stack bootcamp will forever be a memorable experience. The BootCamp equipped me with the latest and greatest trending techlogies to date. From the start, it was fast pace into HTML/JS/CSS then we dove even deeper into ExpressJS for our servers, NodeJS, MongoDb for our databases, and ReactJS. The best part about this was the indepence & group projects. Seeing others struggle with me took some weight off me and taught me that it's normal and part of the process. I can look back now and see that as fast as it was, and I know I have a lot more to learn, but I left knowing more then I started with. I feel more confident & competent in my skills."
       }
     ],
-    "work":[
-      {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
+   
     "skills":[
       {
         "name":"Express Js",
         "level":"60%"
-      },
-      {
-        "name":"HTML",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"JavaScript",
-        "level":"90%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      },
-      {
-        "name":"MySQL",
-        "level":"70%"
-      },
-      {
-        "name":"CSS",
-        "level":"80%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Kevin Samuels",
+        "category":"This was a re-design of his current website",
         "image":"01.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Portfolio",
+        "category":"A portfolio I did from scratch to design to development",
         "image":"02.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Password Generator",
+        "category":"Playing around with some Javascript. Weekly challenge",
         "image":"03.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
