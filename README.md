@@ -14,6 +14,13 @@
 ## Description
  
 This is my updated portfolio, portfolio #3. This one, unlike the previous two wasn't standard/basic html/css but rather build through React using recyclable components. It's short, it's sweet, and it's straight to the point. I low how it all turned out overall. 
+
+## To run the application
+First install the dependencies 
+```npm i ```
+
+then run the app by typing:
+```npm start ```
   
 ## License
  
@@ -29,3 +36,4 @@ here is a full list of all technologies used in this project:
 * JQuery 
 * JEST to run tests
 * Figma to crop/resize/create images & layouts
+
