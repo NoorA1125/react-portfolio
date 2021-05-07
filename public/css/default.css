@@ -627,10 +627,6 @@ input[type="checkbox"] { display: inline; }
 
 [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
 
-/* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
---------------------------------------------------------------------- */
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
 
@@ -701,14 +697,6 @@ properly.
 
 }
 
-/* ------------------------------------------------------------------ */
-/* e. Others
-/* ------------------------------------------------------------------ */
-
-/*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
-
 .cf:before,
 .cf:after {
     content: " ";
@@ -717,8 +705,6 @@ properly.
 .cf:after {
     clear: both;
 }
-
-/*  2. Misc -------------------------------------------------------- */
 
 .remove-bottom { margin-bottom: 0 !important; }
 .half-bottom { margin-bottom: 12px !important; }
