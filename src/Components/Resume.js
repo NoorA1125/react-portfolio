@@ -59,7 +59,7 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}> -- I want to display the icons via grid like system side by side but will come back for it.
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -73,7 +73,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
       </section>
     );
   }
