@@ -7,11 +7,13 @@ class Footer extends Component {
 
     const networks = this.props.data.social.map(function (network) {
       return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
+        <Fade duration={1000}>
+          <li key={network.name}>
+            <a href={network.url}>
+              <i className={network.className}></i>
+            </a>
+          </li>
+        </Fade>
       );
     });
 
