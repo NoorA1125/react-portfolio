@@ -58,9 +58,9 @@ class Contact extends Component {
 
             <div className="four columns">
             <div className="columns contact-details">
-                  <p className="white"> <br /> <br />
+                  <h5 className="white"> <br /> <br />
                   <ul className="message">{message}</ul>
-                  </p>
+                  </h5>
             </div> </div>
           </div>
         </Fade>
