@@ -10,11 +10,12 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
-
+    
+    //offwhite bg
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
-
+        <ParticlesBg color="#f8f8ff" num={200}type="cobweb" bg={true} /> 
+        
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation

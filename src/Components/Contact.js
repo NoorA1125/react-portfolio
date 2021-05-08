@@ -14,36 +14,56 @@ class Contact extends Component {
     const email = this.props.data.email;
     const message = this.props.data.contactmessage;
 
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <Fade duration={1000}>
+          <li key={network.name}>
+            <a href={network.url}>
+              <i className={network.className}></i>
+            </a>
+          </li>
+        </Fade>
+      );
+    });
+    
     return (
       <section id="contact">
         <Fade duration={1000}>
           <div className="row section-head">
-            <div className="two columns header-col">
+            <div className="four columns header-col">
             <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="">
+                  <h2>Contact Details</h2> 
+                  <br />
+                  <h5 className="white">
                     <span>{name}</span>
                     <br />
                     <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
+                    
+                      {city}, </span>
+                      <span>{state}</span>
+                  </h5>
+                </div>
+            </div>
+          
+            <div className="four columns">
+            <div className="columns contact-details">
+              <br /> <br /> 
+                  <h5 className="white">
                     <br />
                     <span>{phone}</span>
                     <br />
                     <span>{email}</span>
-                  </p>
-                </div>
-            </div>
+                  </h5>
+            </div> </div>
 
-            <div className="ten columns">
-              <p className="lead">{message}</p>
-            </div>
+            <div className="four columns">
+            <div className="columns contact-details">
+                  <p className="white"> <br /> <br />
+                  <ul className="message">{message}</ul>
+                  </p>
+            </div> </div>
           </div>
         </Fade>
-         <div className="row">
-        </div>
       </section>
     );
   }

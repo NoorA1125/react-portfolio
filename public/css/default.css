@@ -52,7 +52,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/* blockquote, q { quotes: &#8220 &#8220; } */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -558,6 +558,12 @@ input[type="checkbox"] { display: inline; }
     float: none;
     margin: 0 auto;
 }
+
+/*Contact details */
+.contact-details, .white, .contact-details>h2 {
+   color: #aaaaaa;
+}
+
 
 /* removed gutters */
 .row.collapsed > .column,
