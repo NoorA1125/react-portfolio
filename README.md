@@ -9,7 +9,7 @@
 * [Questions](#questions)
 
 ## Deployable-Link
-* ![](https://nabdikadir.herokuapp.com/)
+* (https://nabdikadir.herokuapp.com/)
 
 ## Description
  
