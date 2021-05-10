@@ -8,7 +8,7 @@
 * [Technology Used](#technology-used)
 * [Questions](#questions)
 
-## Deployable Link
+## Deployable-Link
 * ![](https://nabdikadir.herokuapp.com/)
 
 ## Description
