@@ -9,7 +9,7 @@
 * [Questions](#questions)
 
 ## Deployable Link
-* [Heroku App](#)
+* ![](https://nabdikadir.herokuapp.com/)
 
 ## Description
  
@@ -32,9 +32,8 @@ here is a full list of all technologies used in this project:
 
 * React Components 
 * Dependencies (Located in Package.json)
-* HTML/CSS
-* JQuery/JS
-* JEST
+* REACT.JS
+* JS/HTML/CSS
 * Figma
 * particle-bg
 
