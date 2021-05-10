@@ -36,7 +36,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Technologies i've worked with",
     "education":[
       {
         "school":"University of Arizona Boot Camp",
@@ -46,15 +46,76 @@
       }
     ],
    
-    "skills":[
+    "skills": [
       {
-        "name":"Express Js",
-        "level":"60%"
+        "name": "Git",
+        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image": "git.png"
+      },
+      {
+        "name": "BootStrap",
+        "description": "Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "image": "bootstrap.png"
+      },
+      {
+        "name": "ExpressJS",
+        "description": "I enjoy ExpressJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
+        "image": "express.png"
+      },
+
+      {
+        "name": "Node JS",
+        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
+        "image": "node.png"
+      },
+      {
+        "name": "Bulma",
+        "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
+        "image": "bulma.png"
+      },
+      {
+        "name": "MongoDB",
+        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "image": "mongo.png"
+      },
+      {
+        "name": "Heroku",
+        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image": "heroku.png"
+      },
+      {
+        "name": "React Js",
+        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "image": "react.png"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"Meals & Tails",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://mcolumbusua21.github.io/Project1/"
+      },
+      {
+        "title":"Weather App",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"https://noora1125.github.io/WeatherApp/"
+      },
+      {
+        "title":"Password Generator",
+        "category":"Playing around with some Javascript. Weekly challenge",
+        "image":"03.jpg",
+        "url":"https://noora1125.github.io/password/"
+      },
+      {
+        "title":"Work Day Planner",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"https://noora1125.github.io/day-planer/"
+      },
       {
         "title":"Kevin Samuels",
         "category":"This was a re-design of his current website",
@@ -66,30 +127,6 @@
         "category":"A portfolio I did from scratch to design to development",
         "image":"02.jpg",
         "url":"https://noora1125.github.io/Portflio/"
-      },
-      {
-        "title":"Password Generator",
-        "category":"Playing around with some Javascript. Weekly challenge",
-        "image":"03.jpg",
-        "url":"https://noora1125.github.io/password/"
-      },
-      {
-        "title":"Weather App",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"https://noora1125.github.io/WeatherApp/"
-      },
-      {
-        "title":"Work Day Planner",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"https://noora1125.github.io/day-planer/"
-      },
-      {
-        "title":"Meals & Tails",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://mcolumbusua21.github.io/Project1/"
       }
     ]
   }

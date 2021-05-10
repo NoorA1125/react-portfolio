@@ -270,6 +270,12 @@ ul#nav li.current a { color: #fe6928; }
   	margin-top: 36px;
    list-style: none;
 }
+
+.skill img {
+   max-width: 20px;
+   width: 100%;
+   height: auto;
+}
 .bars li {
    position: relative;
   	margin-bottom: 60px;

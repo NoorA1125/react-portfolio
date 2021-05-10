@@ -29,18 +29,14 @@ class Resume extends Component {
       );
     });
     //Skillset
-    const skills = this.props.data.skills.map(function (skills) {
-      return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
-        </div>
-      );
-    });
+    const skills = this.props.data.skills.map(function(skills){
+      const projectImage = 'images/tech/'+skills.image;
+        return <div key={skills.name} className="columns feature-item">
+                  <img className='skill' alt={skills.name} src={projectImage} />
+                  <h5>{skills.name}</h5>
+                  <p>{skills.description}</p>
+               </div>
+      });
 
     return (
       <section id="resume">
@@ -59,18 +55,18 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
-        {/* <Slide left duration={1300}> -- I want to display the icons via grid like system side by side but will come back for it.
-          <div className="row education">
+        {/* <Slide left duration={1300}> -- Not working prooerly right now, image logo issues, ruines design. Will work on after BC.
+          <div className="row skill">
+
             <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
+              <h1><span>Skills</span></h1>
             </div>
 
-            <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">{skillmessage}</div>
-              </div>
+            <div>
+              <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
+              <ul className="bgrid-quarters s-bgrid-thirds cf">
+                {skills}
+              </ul>
             </div>
           </div>
         </Slide> */}
