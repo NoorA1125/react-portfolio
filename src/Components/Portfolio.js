@@ -6,7 +6,7 @@ let id = 0;
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
-
+    
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
@@ -16,6 +16,7 @@ class Portfolio extends Component {
             <a href={projects.url}>
               <Zmage alt={projects.title} src={projectImage} />
               <div style={{ textAlign: "center" }}>{projects.title}</div>
+              <div style={{ textAlign: "center" }}><a href={projects.github} className=""> Github Repo</a></div>
             </a>
           </div>
         </div>

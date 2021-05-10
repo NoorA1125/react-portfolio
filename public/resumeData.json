@@ -93,40 +93,60 @@
   "portfolio":{
     "projects": [
       {
+        "title":"What To Watch",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"08.png",
+        "url":"https://what-to-watch-hana.herokuapp.com/",
+        "github": "https://github.com/NoorA1125/whatToWatch"
+      },
+      {
         "title":"Meals & Tails",
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
-        "url":"https://mcolumbusua21.github.io/Project1/"
+        "url":"https://mcolumbusua21.github.io/Project1/",
+        "github": "https://github.com/mcolumbusua21/Project1"
+      },
+      {
+        "title":"Offline Budget App",
+        "category":"A React based resume website template",
+        "image":"07.png",
+        "url":"https://evening-dawn-37876.herokuapp.com/",
+        "github": "https://github.com/NoorA1125/budget"
       },
       {
         "title":"Weather App",
         "category":"A React based resume website template",
         "image":"04.jpg",
-        "url":"https://noora1125.github.io/WeatherApp/"
+        "url":"https://noora1125.github.io/WeatherApp/",
+        "github": "https://github.com/NoorA1125/WeatherApp"
       },
       {
         "title":"Password Generator",
         "category":"Playing around with some Javascript. Weekly challenge",
         "image":"03.jpg",
-        "url":"https://noora1125.github.io/password/"
+        "url":"https://noora1125.github.io/password/",
+        "github": "https://github.com/NoorA1125/password"
       },
       {
         "title":"Work Day Planner",
         "category":"(MVP Only) A React and Meteor based chat University project.",
         "image":"05.jpg",
-        "url":"https://noora1125.github.io/day-planer/"
+        "url":"https://noora1125.github.io/day-planer/",
+        "github": "https://github.com/NoorA1125/day-planer"
       },
       {
         "title":"Kevin Samuels",
         "category":"This was a re-design of his current website",
         "image":"01.jpg",
-        "url":"https://noora1125.github.io/ks/"
+        "url":"https://noora1125.github.io/ks/",
+        "github": "https://github.com/NoorA1125/ks"
       },
       {
         "title":"Portfolio",
         "category":"A portfolio I did from scratch to design to development",
         "image":"02.jpg",
-        "url":"https://noora1125.github.io/Portflio/"
+        "url":"https://noora1125.github.io/Portflio/",
+        "github": "https://github.com/NoorA1125/Portflio"
       }
     ]
   }
