@@ -36,4 +36,5 @@ here is a full list of all technologies used in this project:
 * JS/HTML/CSS
 * Figma
 * particle-bg
+* Heroku
 
